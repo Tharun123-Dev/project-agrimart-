@@ -780,14 +780,14 @@ text-align: center;
         /* transform: translateX(0); */
 
       
-      }
-      to{
-        left: 1500px;
+      /* } */
+      /* to{ */
+        /* left: 1500px; */
         /* transform: translateX(-50%); */
         
 
-      }
-    } */
+      /* } */
+    /* } */ 
 
 
 /* testmonialsssss */
@@ -892,7 +892,7 @@ text-align: center;
     /* }  */
 
 
-    footer */
+    /* footer  */
 
 
 
@@ -1141,7 +1141,76 @@ text-align: center;
     color: #00f431;
     font-size: xx-large;
   }
- 
+
+  
+  /* recent reviews */
+  .reviews-section {
+      background: #fff;
+      padding: 40px 0;
+      overflow: hidden;
+      position: relative;
+       font-family: Arial, sans-serif;
+
+    }
+
+    .reviews-track {
+      display: flex;
+      width: max-content;
+      animation: scrollLeft 30s linear infinite;
+    }
+
+    .review-card {
+      flex: 0 0 300px;
+      background: #fafafa;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin: 0 10px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .review-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .review-img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      object-fit: cover;
+    }
+
+    .review-name {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+
+    .review-message {
+      font-size: 14px;
+      color: #555;
+      margin: 10px 0;
+    }
+
+    .stars {
+      color: #FFD700;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    @keyframes scrollLeft {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+    .reviews-section{
+      margin-bottom: 100px;
+    }
     
 
 
