@@ -312,7 +312,7 @@ width: 100%;
 
 }
 .mm4{
-    display: flex;
+    /* display: flex; */
     width: 100%;
 
 }
@@ -341,29 +341,6 @@ width: 100%;
 .footer{
     width: 100%;
 }
-.testmonials{
-      animation-name: nani;
 
-      animation-duration:15s;
-      animation-iteration-count: infinite;
-      position: relative;
-      animation-timing-function: linear;
-     
-    }
-    @keyframes nani{
-      from{
-        left:0px;
-        height: 200px;
-        /* transform: translateX(0); */
-
-      
-      }
-      to{
-        left: 1500px;
-        /* transform: translateX(-50%); */
-        
-
-      }
-    }
 
 

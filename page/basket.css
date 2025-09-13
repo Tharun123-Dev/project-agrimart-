@@ -764,7 +764,7 @@ text-align: center;
       height: 10vh;
    }
  
-    .testmonials{
+    /* .testmonials{
       animation-name: nani;
 
       animation-duration:15s;
@@ -787,7 +787,7 @@ text-align: center;
         
 
       }
-    }
+    } */
 
 
 /* testmonialsssss */
@@ -877,22 +877,22 @@ text-align: center;
       animation-iteration-count: infinite;
       position: relative;
     }
-    @keyframes nanii{
+    /* @keyframes nanii{
        from{
         right:0px; 
          height: 200px;
         /* transform: translateX(0); */
       
-      }
-      to{
-        right: 1500px;
+      /* } */
+      /* to{ */
+        /* right: 1500px; */
         /* transform: translateX(-50%); */
 
-      }
-    } 
+      /* } */
+    /* }  */
 
 
-    /* footer */
+    footer */
 
 
 
