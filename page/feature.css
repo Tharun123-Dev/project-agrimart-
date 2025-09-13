@@ -37,7 +37,7 @@
     /* left: 0; */
 }
 .f1,.f2,.f3,.f4{
-    width: 95%;
+    width: 100%;
     text-align: center;
     margin-bottom: 70px;
     margin-top:70px ;
@@ -147,17 +147,223 @@
    width: 100%;
     margin-top: 100px; 
 }
+.our{
+    text-align: center;
+}
 .t1,.t2,.t3{
     width: 95%;
     margin-top: 100px;
     height: auto;
 }
 .t21 img{
-    width: 95%;
+    width: 100%;
 }
 .t3{
     margin-bottom: 200px;
 }
 }
+.basket{
+    width: 100%;
+    height: auto;
+}
+.b1 h2{
+width: 100%;
+    text-align: center;
+
+
+}
+.b1 button{
+    margin-left:-50px;
+}
+.b1 p{
+    width: 100%;
+    text-align: end;
+}
+.sell1{
+    margin-bottom:100px;
+}
+.s1{
+    margin-bottom: 100px;
+}
+.s12 {
+    text-align: center;
+    
+}
+
+.s2{
+    margin-bottom: 100px;
+}
+.s22 {
+    text-align: center;
+    
+}
+.s3{
+    margin-bottom: 100px;
+}
+.s32 {
+    text-align: center;
+    
+}
+.s4{
+    margin-bottom: 100px;
+}
+.s42 {
+    text-align: center;
+    
+}
+.s5{
+    margin-bottom: 100px;
+}
+.s52 {
+    text-align: center;
+    
+}
+.s6{
+    margin-bottom: 100px;
+}
+.s62 {
+    text-align: center;
+    
+}
+.group{
+width: 100%;
+}
+.g{
+    margin-bottom: 100px;
+}
+.Test1{
+    width: 100%;
+    border: 2px solid chocolate;
+    text-align: center;
+    height: auto;
+    margin-bottom: 100px;
+
+}
+.m2{
+    display: flex;
+    width: 100%;
+
+}
+.m21 img{
+    width: 100px;
+    height: 20vh;
+}
+
+.Test2{
+    width: 100%;
+    border: 2px solid chocolate;
+    text-align: center;
+    height: auto;
+    margin-bottom: 100px;
+
+}
+.m4{
+    display: flex;
+    width: 100%;
+
+}
+.m41 img{
+    width: 100px;
+    height: 20vh;
+}
+.Test3{
+    width: 100%;
+    border: 2px solid chocolate;
+    text-align: center;
+    height: auto;
+    /* margin-bottom: 100px; */
+
+}
+.m6{
+    display: flex;
+    width: 100%;
+
+}
+.m61 img{
+    width: 100px;
+    height: 20vh;
+}
+.Testt1{
+    width: 100%;
+    border: 2px solid chocolate;
+    text-align: center;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: -500px;
+
+}
+.mm2{
+    display: flex;
+    width: 100%;
+    /* margin-top: -200px; */
+
+}
+.mm21 img{
+    width: 100px;
+    height: 20vh;
+}
+
+.Testt2{
+    width: 100%;
+    border: 2px solid chocolate;
+    text-align: center;
+    height: auto;
+    margin-bottom: 100px;
+
+}
+.mm4{
+    display: flex;
+    width: 100%;
+
+}
+.mm41 img{
+    width: 100px;
+    height: 20vh;
+}
+.Testt3{
+    width: 100%;
+    border: 2px solid chocolate;
+    text-align: center;
+    height: auto;
+    margin-bottom: 100px;
+
+}
+.mm6{
+    display: flex;
+    width: 100%;
+
+}
+.mm61 img{
+    width: 100px;
+    height: 20vh;
+}
+
+.footer{
+    width: 100%;
+}
+.testmonials{
+      animation-name: nani;
+
+      animation-duration:15s;
+      animation-iteration-count: infinite;
+      position: relative;
+      animation-timing-function: linear;
+     
+    }
+    @keyframes nani{
+      from{
+        left:0px;
+        height: 200px;
+        /* transform: translateX(0); */
+
+      
+      }
+      to{
+        left: 1500px;
+        /* transform: translateX(-50%); */
+        
+
+      }
+    }
 
 
