@@ -1286,6 +1286,15 @@ box-shadow:
         0 0 125px 25px cyan;
     }
      
+    .d-flex a:hover{
+      box-shadow: 
+        0 0 25px 5px aqua,
+        0 0 50px 10px pink,
+        0 0 75px 15px purple,
+        0 0 100px 20px gold,
+        0 0 125px 25px cyan;
+    }
+    
 
 
     /* scroll bar */
