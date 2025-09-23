@@ -861,6 +861,33 @@ box-shadow:
     width: 30% !important;
     left:220px;
 }
+/*yellow*/
+.ad{
+    height: auto;
+}
+.ad-l{
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.ad-l h2{
+    font-size: 27px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 20px rgba(0, 221, 255, 0.482);
+}
+.ad-l h2 span{
+    font-size: 30px;
+}
+.ad-l p{
+    font-size: 18px;
+}
+.img img{
+    width: 100%;
+}
+.price-tagg{
+    font-size: 20px;
+    left: 5px !important;
+}
 }
 
 
@@ -1269,10 +1296,33 @@ width: 100%;
     margin-left: 50px;
 }
 .basket{
-    width: 100%;
+        width: 96%;
+        margin-left: -70px;
+        border: 2px blue solid;
+        /* background: white; */
+        margin-left: 4px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
 .b1{
-    margin-left: 35px;
+    width: 550%;
+    border: 2px red solid;
+    /* margin-left: 35px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.b1 h2{
+    font-size: 40px;
+    margin: 0;
+    width: 100%;
+}
+.b1 p{
+    margin: 0;
 }
 .g{
     width: 100%;
@@ -1281,10 +1331,39 @@ width: 100%;
     left: 260px;
     width: 30%;
 }
-    }
+/*yellow*/
+.ad{
+    height: auto;
+}
+.ad-l{
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.ad-l h2{
+    font-size: 35px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 20px rgba(0, 221, 255, 0.482);
+}
+.ad-l h2 span{
+    font-size: 27px;
+}
+.ad-l p{
+    font-size: 18px;
+}
+.img img{
+    width: 100%;
+}
+.price-tagg{
+    font-size: 20px;
+    left: 5px !important;
+}
+}
+    
 
 /* big mobile */
-    @media screen and (min-width:376px) and (max-width:426px){
+    @media screen and (min-width:378px) and (max-width:426px){
     .nav{
         display: none;
     }
@@ -1698,6 +1777,44 @@ width: 100%;
     width: 30%;
 }
     }
+    
+@media screen and (max-width:768px) and (min-width:427px) {
+    /*yellow*/
+.ad{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ad-l{
+    width: 40%;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.ad-l,.ad-r{
+    width: 45%;
+}
+.ad-l h2{
+    font-size: 30px;
+    font-weight: bolder;
+    box-shadow: 2px 2px 20px rgba(0, 221, 255, 0.482);
+}
+.ad-l h2 span{
+    font-size: 30px;
+}
+.ad-l p{
+    font-size: 18px;
+}
+.img img{
+    width: 100%;
+}
+.price-tagg{
+    font-size: 20px;
+    left: 5px !important;
+}
+}
+    
+
 
 /* tab */
 @media screen and (min-width:426px) and (max-width:1024px){
